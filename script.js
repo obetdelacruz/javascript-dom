@@ -37,3 +37,11 @@ p2.textContent = "ME TOO!";
 div.appendChild(p2);
 
 body.appendChild(container);
+
+div.textContent = "Hello, World";
+
+div.setAttribute(
+  "style",
+  "color: red; background: yellow; border:solid 5px blue; font-weight: bold"
+);
+body.appendChild(div);

@@ -40,8 +40,29 @@
 ### Exercise
 
 1. Create a container div with an id of "container"
+
+   # 1st step - create the body element for us to be able to append the succeeding element
+
+   const body = document.quearySelector("body");
+
+   # 2nd step
+
+   const container = document.createElement("div);
+   container.setAttribute("id", "container");
+
 2. Inside the "container" div, append another div with a class of "content"
+
+   # 3rd step
+
+   const content = document.createElement("div");
+   content.classlist.add("content");
+
 3. Put the content, "This is the glorious text-content!", inside the "content" container
+
+   # 4th step
+
+   content.textContent = "This is the glorious text-content!";
+
 4. Create a <p> with red text that says “Hey I’m red!”
 5. Create an <h3> with blue text that says “I’m a blue h3!”
 6. Create a <div> with a black border and pink background color with the following elements inside of it:
